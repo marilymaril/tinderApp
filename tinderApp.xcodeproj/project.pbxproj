@@ -14,6 +14,8 @@
 		1C9DA6DB2187E59400870DBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C9DA6D92187E59400870DBD /* LaunchScreen.storyboard */; };
 		1C9DA6E62187E59400870DBD /* tinderAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9DA6E52187E59400870DBD /* tinderAppTests.swift */; };
 		1C9DA6F12187E59400870DBD /* tinderAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9DA6F02187E59400870DBD /* tinderAppUITests.swift */; };
+		1C9DA6FF2187E8A300870DBD /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9DA6FE2187E8A300870DBD /* CardsViewController.swift */; };
+		1C9DA7012187EB0100870DBD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9DA7002187EB0100870DBD /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		1C9DA6EC2187E59400870DBD /* tinderAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tinderAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C9DA6F02187E59400870DBD /* tinderAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tinderAppUITests.swift; sourceTree = "<group>"; };
 		1C9DA6F22187E59400870DBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C9DA6FE2187E8A300870DBD /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		1C9DA7002187EB0100870DBD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				1C9DA6D72187E59400870DBD /* Assets.xcassets */,
 				1C9DA6D92187E59400870DBD /* LaunchScreen.storyboard */,
 				1C9DA6DC2187E59400870DBD /* Info.plist */,
+				1C9DA6FE2187E8A300870DBD /* CardsViewController.swift */,
+				1C9DA7002187EB0100870DBD /* ProfileViewController.swift */,
 			);
 			path = tinderApp;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			files = (
 				1C9DA6D32187E59100870DBD /* ViewController.swift in Sources */,
 				1C9DA6D12187E59100870DBD /* AppDelegate.swift in Sources */,
+				1C9DA7012187EB0100870DBD /* ProfileViewController.swift in Sources */,
+				1C9DA6FF2187E8A300870DBD /* CardsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
