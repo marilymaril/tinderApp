@@ -79,10 +79,15 @@
                     </navigationItem>
                     <connections>
                         <outlet property="profileImage" destination="66I-8Y-7YR" id="U1t-zU-aVn"/>
+                        <outlet property="view" destination="8bC-Xf-vdC" id="npa-yO-5wn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <panGestureRecognizer minimumNumberOfTouches="1" id="8xB-pV-Iex"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="8xB-pV-Iex">
+                    <connections>
+                        <action selector="didPanImage:" destination="BYZ-38-t0r" id="GTf-dw-zfg"/>
+                    </connections>
+                </panGestureRecognizer>
                 <tapGestureRecognizer id="FkF-hD-8Xt">
                     <connections>
                         <action selector="onTap:" destination="BYZ-38-t0r" id="2nd-rS-lhe"/>
