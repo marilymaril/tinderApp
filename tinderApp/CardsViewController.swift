@@ -37,14 +37,12 @@ class CardsViewController: UIViewController {
                 rotation = -rotation
             }
         } else if sender.state == .changed {
-           
             self.profileImage.center.y = cardInitialCenter.y + translation.y
             self.profileImage.center.x = cardInitialCenter.x + translation.x
             
             self.profileImage.transform = CGAffineTransform(rotationAngle: rotation)
             
         } else if sender.state == .ended {
-            
             if translation.x > 50 {
                 UIView.animate(withDuration: 0.3, animations: {
                     self.profileImage.center.x += self.view.bounds.width
